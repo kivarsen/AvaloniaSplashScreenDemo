@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaSplashScreenDemo", "AvaloniaSplashScreenDemo\AvaloniaSplashScreenDemo.csproj", "{5686D2A6-DFF6-4E7A-9F0B-F3BB48DF312F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5686D2A6-DFF6-4E7A-9F0B-F3BB48DF312F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5686D2A6-DFF6-4E7A-9F0B-F3BB48DF312F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5686D2A6-DFF6-4E7A-9F0B-F3BB48DF312F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5686D2A6-DFF6-4E7A-9F0B-F3BB48DF312F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E513B8D7-3C9F-4189-B0A0-DAE75B071FF4}
+	EndGlobalSection
+EndGlobal

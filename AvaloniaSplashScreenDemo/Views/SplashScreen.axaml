@@ -1,0 +1,46 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        d:DesignWidth="300"
+        d:DesignHeight="300"
+        Width="300"
+        Height="300"
+        WindowStartupLocation="CenterScreen"
+        SystemDecorations="None"
+		Topmost="True"
+        x:Class="AvaloniaSplashScreenDemo.Views.SplashScreen"
+        Title="SplashScreen">
+    <Border BorderBrush="Black" BorderThickness="2">
+        <Grid RowDefinitions="*,Auto" ColumnDefinitions="*,Auto">
+            <Label Grid.Row="0"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   FontSize="18"
+                   Background="AliceBlue"
+                   HorizontalAlignment="Stretch"
+                   VerticalAlignment="Stretch"
+                   HorizontalContentAlignment="Center"
+                   VerticalContentAlignment="Center">
+                Launching Application...
+            </Label>
+            <Label Grid.Row="1"
+                   Grid.Column="0"
+                   DockPanel.Dock="Bottom"
+                   Content="{Binding StartupMessage}"
+                   FontSize="12"
+                   Background="LightYellow"
+                   HorizontalAlignment="Stretch"
+                   VerticalAlignment="Stretch"
+                   HorizontalContentAlignment="Center"
+                   VerticalContentAlignment="Center" />
+            <Button Grid.Row="1"
+                    Grid.Column="2"
+                    DockPanel.Dock="Bottom"
+                    Command="{Binding Cancel}">
+                Cancel
+            </Button>
+        </Grid>
+    </Border>
+</Window>
